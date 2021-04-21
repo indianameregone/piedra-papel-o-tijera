@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Practicando</title>
+</head>
+<body>
+    <header><h1>Piedra, Papel o Tijera</h1></header>
+    <div class="Score-board">
+        <div id="User-label" class="badge">User</div>
+        <div id="Computer-label" class="badge">Compu</div>
+        <span id="User-score">0</span>:<span id="Computer-score">0</span>
+    </div>
+    <div class="resultado">
+        <p>Papel cubre la Piedra, tu ganas</p>
+    </div>
+    <div class="choices">
+        <div class="choice" id="r">
+            <img src="imagenes/piedra.png" alt="">        
+        </div>    
+        <div class="choice" id="p">
+            <img src="imagenes/papel.png" alt="">
+        </div>
+        <div class="choice" id="s">
+            <img src="imagenes/tijera.png" alt="">
+        </div>
+    </div>
+    
+    <p id="mensaje">Hace tu movimiento</p>
+    <script src="app.js"></script>
+</body>
+</html>
